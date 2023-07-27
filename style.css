@@ -287,4 +287,91 @@ h5 {
     grid-template-columns: 45% 55% ;
 }
 
+.container4_left {
+    display: grid;
+    justify-content: center;
+}
+
+.container4_left > img {
+    width: 100%;
+}
+
+.container4_right {
+    padding-top: 40px;
+}
+
+.client_block {
+    padding-top: 40px;
+    display: flex;
+    gap: 14px;
+}
+
+.client_card {
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    width: 430px;
+    height: 210px;
+    padding: 20px;
+}
+
+.client_personal_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.client_personal_data > img {
+    width: 60px;
+    height: 60px;
+}
+
+.client_personal_data > div {
+    margin: 4px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.client_rating {
+    margin-top: 10px;
+}
+
+.client_opinion {
+    margin: 18px auto;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container5 {
+    margin: 40px 0;
+    height: 330px;
+    width: 100%;
+    background-image: url(img/fotos/unsplash_2lWGQ02DGL8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container5_child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.container5_child > p {
+    margin-top: 6%;
+    color:white;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+
+
 
