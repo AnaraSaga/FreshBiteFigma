@@ -89,7 +89,6 @@ ul > li:hover {
     left: 16px;
 }
 
-
 /*Main*/
 .container {
     background-color: #FFF9EA;
@@ -343,7 +342,7 @@ h5 {
 }
 
 .container5 {
-    margin: 40px 0;
+    margin: 40px 0 50px;
     height: 330px;
     width: 100%;
     background-image: url(img/fotos/unsplash_2lWGQ02DGL8.png);
@@ -358,16 +357,111 @@ h5 {
     gap: 30px;
     align-items: center;
     justify-items: center;
-
 }
 
 .container5_child > p {
-    margin-top: 6%;
+    margin-top: 7%;
     color:white;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
 }
+
+/* Footer */
+footer {
+    background-color: #FFF9EA;
+    padding: 20px 40px;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer > img:first-child {
+    position: absolute;
+    top: 190px;
+    right: 590px;
+    z-index: 0;
+}
+
+footer > img:nth-child(2) {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    z-index: 0;
+}
+
+footer > img:nth-child(3) {
+    position: absolute;
+    top: 80px;
+    left: 500px;
+} 
+
+.footer_grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    position: inherit;
+}
+
+.footer_name {
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    justify-items: center;
+}
+
+.footer_name > p {
+    padding: 20px 0 26px ;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.footer_name > img {
+    width: 47px;
+    height: 47px;
+    margin: 2px;
+}
+
+.footer_grid_left {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.social_media img {
+    margin: 20px 10px 20px 0;
+    width: 50px;
+    height: 50px;
+}
+
+.footer_center, .footer_right {
+    padding: 20px;
+}
+
+.footer_center ul, .footer_right ul {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer_center li, .footer_right li {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0 ;
+    list-style-type: none;
+}
+
+.copyright {
+    width: 100%;
+    height: 100px;
+    margin: 30px 0 0 0;
+    padding-top: 50px;
+    text-align: center;
+    border-top: 2px solid rgba(29, 29, 29, 0.50);
+
+}
+
+
 
 
 
